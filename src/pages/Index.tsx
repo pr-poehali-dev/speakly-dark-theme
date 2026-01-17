@@ -208,7 +208,7 @@ const Index = () => {
 
   if (screen === 'auth') {
     return (
-      <div className="min-h-screen bg-background dark flex items-center justify-center p-4">
+      <div className="min-h-screen bg-background flex items-center justify-center p-4">
         <div className="w-full max-w-md animate-fade-in">
           <div className="text-center mb-8">
             <div className="text-6xl mb-4">💬</div>
@@ -262,7 +262,7 @@ const Index = () => {
 
   if (screen === 'chats') {
     return (
-      <div className="min-h-screen bg-background dark flex">
+      <div className="min-h-screen bg-background flex">
         <div className="w-full max-w-md mx-auto flex flex-col">
           <div className="bg-card border-b border-border p-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -379,7 +379,7 @@ const Index = () => {
 
   if (screen === 'chat' && activeChat) {
     return (
-      <div className="min-h-screen bg-background dark flex flex-col">
+      <div className="min-h-screen bg-background flex flex-col">
         <div className="bg-card border-b border-border p-4 flex items-center gap-3">
           <Button variant="ghost" size="icon" onClick={() => setScreen('chats')}>
             <Icon name="ArrowLeft" size={20} />
@@ -497,7 +497,7 @@ const Index = () => {
 
   if (screen === 'profile') {
     return (
-      <div className="min-h-screen bg-background dark">
+      <div className="min-h-screen bg-background">
         <div className="max-w-2xl mx-auto">
           <div className="bg-card border-b border-border p-4 flex items-center gap-3">
             <Button variant="ghost" size="icon" onClick={() => setScreen('chats')}>
@@ -568,7 +568,7 @@ const Index = () => {
 
   if (screen === 'settings') {
     return (
-      <div className="min-h-screen bg-background dark">
+      <div className="min-h-screen bg-background">
         <div className="max-w-2xl mx-auto">
           <div className="bg-card border-b border-border p-4 flex items-center gap-3">
             <Button variant="ghost" size="icon" onClick={() => setScreen('profile')}>
@@ -629,7 +629,7 @@ const Index = () => {
 
   if (screen === 'shop') {
     return (
-      <div className="min-h-screen bg-background dark">
+      <div className="min-h-screen bg-background">
         <div className="max-w-2xl mx-auto">
           <div className="bg-card border-b border-border p-4 flex items-center gap-3">
             <Button variant="ghost" size="icon" onClick={() => setScreen('chats')}>
@@ -666,7 +666,7 @@ const Index = () => {
 
   if (screen === 'music') {
     return (
-      <div className="min-h-screen bg-background dark">
+      <div className="min-h-screen bg-background">
         <div className="max-w-2xl mx-auto">
           <div className="bg-card border-b border-border p-4 flex items-center gap-3">
             <Button variant="ghost" size="icon" onClick={() => setScreen('chats')}>
@@ -702,7 +702,7 @@ const Index = () => {
 
   if (screen === 'wallet') {
     return (
-      <div className="min-h-screen bg-background dark">
+      <div className="min-h-screen bg-background">
         <div className="max-w-2xl mx-auto">
           <div className="bg-card border-b border-border p-4 flex items-center gap-3">
             <Button variant="ghost" size="icon" onClick={() => setScreen('profile')}>
